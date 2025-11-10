@@ -1,0 +1,9 @@
+export type Todo = {
+    id: string;
+    text: string;
+    completed: boolean;
+    createdAt: Date;
+    completedAt: Date | null;
+}
+
+export type FilterType = 'all' | 'active' | 'completed';
